@@ -1,6 +1,5 @@
-Feature Generation for EHR Notes (ver2.0)
+Feature Generation for Ranking Terms in EHR Notes (ver2.0)
 
-author: Jinying Chen
 =========================================
 This is a python tool for generating machine learning features for ranking 
 medical terms in EHR notes. The tool has been used in the following work.

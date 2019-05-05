@@ -1,0 +1,57 @@
+serverport: 8066
+options: [-y]
+terms: Return visit 3 weeks 
+input text: 
+ Return visit 3 weeks 
+Utterance:
+ Id: 00000000.tx.1
+ Utterance text: Return visit 3 weeks
+ Position: (0, 20)
+Phrase:
+ text: Return visit 3 weeks
+ Minimal Commitment Parse: [mod([lexmatch([return]),inputmatch([Return]),tag(noun),tokens([return])]),mod([lexmatch([visit]),inputmatch([visit]),tag(noun),tokens([visit])]),shapes([inputmatch([3]),features([integer]),tokens([3])]),head([lexmatch([weeks]),inputmatch([weeks]),tag(noun),tokens([weeks])])]
+Candidates:
+Mappings:
+ Map Score: -775
+   Score: -645
+   Concept Id: C0332156
+   Concept Name: Return
+   Preferred Name: Return to
+   Matched Words: [return]
+   Semantic Types: [qlco]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [NCI, SNOMEDCT_US]
+   Positional Info: [(0, 6)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -645
+   Concept Id: C2826704
+   Concept Name: VISIT
+   Preferred Name: Visit Name
+   Matched Words: [visit]
+   Semantic Types: [inpr]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(7, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -812
+   Concept Id: C0439230
+   Concept Name: weeks
+   Preferred Name: week
+   Matched Words: [weeks]
+   Semantic Types: [tmco]
+   MatchMap: [[[4, 4], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, SNOMEDCT_US]
+   Positional Info: [(15, 5)]
+   Pruning Status: 0
+   Negation Status: 0

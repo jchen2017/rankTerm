@@ -1,0 +1,15 @@
+# format: filename	annotator (using a,b,c only)	medical_term
+# The format was derived from an old project
+# bin/label_data.py allows at most 3 annotators, denoted by a, b, and c
+sample_note_1.txt	a	depression
+sample_note_1.txt	a	Effexor
+sample_note_1.txt	b	depression
+sample_note_1.txt	c	depression
+sample_note_2.txt	a	depressive
+sample_note_2.txt	a	ADLS
+sample_note_2.txt	a	anergia
+sample_note_2.txt	a	anhedonia
+sample_note_2.txt	b	depressive symptoms
+sample_note_2.txt	b	ADL
+sample_note_2.txt	c	depressive
+sample_note_2.txt	c	ADL

@@ -1,0 +1,296 @@
+serverport: 8066
+options: [-y]
+terms: Recommend that the interventions and short term goals for this problem be continued since more time is needed to meet these goals and resolve this problem . 
+input text: 
+ Recommend that the interventions and short term goals for this problem be continued since more time is needed to meet these goals and resolve this problem . 
+Utterance:
+ Id: 00000000.tx.1
+ Utterance text: Recommend that the interventions and short term goals for this problem be continued since more time is needed to meet these goals and resolve this problem .
+ Position: (0, 156)
+Phrase:
+ text: Recommend
+ Minimal Commitment Parse: [verb([lexmatch([recommend]),inputmatch([Recommend]),tag(verb),tokens([recommend])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0034866
+   Concept Name: recommend
+   Preferred Name: Recommendation
+   Matched Words: [recommend]
+   Semantic Types: [idcn]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, MTH, NCI]
+   Positional Info: [(0, 9)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: that
+ Minimal Commitment Parse: [compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])])]
+Candidates:
+Mappings:
+Phrase:
+ text: the interventions
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([interventions]),inputmatch([interventions]),tag(noun),tokens([interventions])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C1273869
+   Concept Name: Interventions
+   Preferred Name: Intervention regimes
+   Matched Words: [interventions]
+   Semantic Types: [hlca]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [LNC, MTH, NLMSubSyn, SNOMEDCT_US]
+   Positional Info: [(19, 13)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: short term goals for this problem
+ Minimal Commitment Parse: [mod([lexmatch([short term]),inputmatch([short,term]),tag(adj),tokens([short,term])]),head([lexmatch([goals]),inputmatch([goals]),tag(noun),tokens([goals])]),prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),det([lexmatch([this]),inputmatch([this]),tag(det),tokens([this])]),mod([lexmatch([problem]),inputmatch([problem]),tag(noun),tokens([problem])])]
+Candidates:
+Mappings:
+ Map Score: -725
+   Score: -623
+   Concept Id: C0443303
+   Concept Name: Short-term
+   Preferred Name: Short-term
+   Matched Words: [short, term]
+   Semantic Types: [tmco]
+   MatchMap: [[[1, 2], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, NLMSubSyn, SNOMEDCT_US]
+   Positional Info: [(37, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -753
+   Concept Id: C0018017
+   Concept Name: Goals
+   Preferred Name: objective (goal)
+   Matched Words: [goals]
+   Semantic Types: [inpr]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, MSH, NCI, SNOMEDCT_US]
+   Positional Info: [(48, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -586
+   Concept Id: C0033213
+   Concept Name: Problem
+   Preferred Name: Problem
+   Matched Words: [problem]
+   Semantic Types: [fndg]
+   MatchMap: [[[6, 6], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 6, phrase end: 6], [concept start: 6, concept end: 6], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(63, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: be
+ Minimal Commitment Parse: [aux([lexmatch([be]),inputmatch([be]),tag(aux),tokens([be])])]
+Candidates:
+Mappings:
+Phrase:
+ text: continued
+ Minimal Commitment Parse: [verb([lexmatch([continued]),inputmatch([continued]),tag(verb),tokens([continued])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0549178
+   Concept Name: Continued
+   Preferred Name: Continuous
+   Matched Words: [continued]
+   Semantic Types: [idcn]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [NCI, SNOMEDCT_US]
+   Positional Info: [(74, 9)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: since more time
+ Minimal Commitment Parse: [adv([lexmatch([since]),inputmatch([since]),tag(adv),tokens([since])]),adv([lexmatch([more]),inputmatch([more]),tag(adv),tokens([more])]),head([lexmatch([time]),inputmatch([time]),tag(noun),tokens([time])])]
+Candidates:
+Mappings:
+ Map Score: -802
+   Score: -660
+   Concept Id: C1711239
+   Concept Name: Since
+   Preferred Name: Since
+   Matched Words: [since]
+   Semantic Types: [tmco]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [NCI]
+   Positional Info: [(84, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -827
+   Concept Id: C0040223
+   Concept Name: Time
+   Preferred Name: Time
+   Matched Words: [time]
+   Semantic Types: [tmco]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, MTH, NCI]
+   Positional Info: [(95, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: is
+ Minimal Commitment Parse: [aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])]
+Candidates:
+Mappings:
+Phrase:
+ text: needed
+ Minimal Commitment Parse: [verb([lexmatch([needed]),inputmatch([needed]),tag(verb),tokens([needed])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0027552
+   Concept Name: Needed
+   Preferred Name: Needs
+   Matched Words: [needed]
+   Semantic Types: [qlco]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI, SNOMEDCT_US]
+   Positional Info: [(103, 6)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: to
+ Minimal Commitment Parse: [adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C1883351
+   Concept Name: To
+   Preferred Name: To
+   Matched Words: [to]
+   Semantic Types: [qlco]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH]
+   Positional Info: [(110, 2)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: meet
+ Minimal Commitment Parse: [verb([lexmatch([meet]),inputmatch([meet]),tag(verb),tokens([meet])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C1550543
+   Concept Name: Meet
+   Preferred Name: Fulfill
+   Matched Words: [meet]
+   Semantic Types: [idcn]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [HL7V3.0, NCI]
+   Positional Info: [(113, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: these goals
+ Minimal Commitment Parse: [det([lexmatch([these]),inputmatch([these]),tag(det),tokens([these])]),head([lexmatch([goals]),inputmatch([goals]),tag(noun),tokens([goals])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0018017
+   Concept Name: Goals
+   Preferred Name: objective (goal)
+   Matched Words: [goals]
+   Semantic Types: [inpr]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, MSH, NCI, SNOMEDCT_US]
+   Positional Info: [(124, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: resolve
+ Minimal Commitment Parse: [verb([lexmatch([resolve]),inputmatch([resolve]),tag(verb),tokens([resolve])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C2699488
+   Concept Name: Resolve
+   Preferred Name: Resolution
+   Matched Words: [resolve]
+   Semantic Types: [cnce]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(134, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: this problem .
+ Minimal Commitment Parse: [det([lexmatch([this]),inputmatch([this]),tag(det),tokens([this])]),head([lexmatch([problem]),inputmatch([problem]),tag(noun),tokens([problem])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0033213
+   Concept Name: Problem
+   Preferred Name: Problem
+   Matched Words: [problem]
+   Semantic Types: [fndg]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(147, 7)]
+   Pruning Status: 0
+   Negation Status: 0
