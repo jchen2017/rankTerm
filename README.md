@@ -25,6 +25,7 @@ https://metamap.nlm.nih.gov/MainDownload.shtml
 
 The tool has been tested in the Linux environment with MetaMap 2014 
 version and java 1.8.0_25
+
 -----------------------------------------
 
  
