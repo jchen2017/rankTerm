@@ -19,6 +19,8 @@ packages may need to be intalled separately.
 - nltk
 - sqlite3
 
+
+
 The tool uses MetaMap to identify candidate medical terms. MetaMap is 
 required to run the tool. You can install MetaMap from
 https://metamap.nlm.nih.gov/MainDownload.shtml
